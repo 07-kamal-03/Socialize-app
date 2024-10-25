@@ -23,9 +23,9 @@ export const RightSideBar = () => {
             </div>
         </div>
         {/* Contact List */}
-        <Contacts src={fbLogo} name="Kamalraj" status="Online" />
-        <Contacts src={fbLogo} name="Kamalraj" status="Offline" />
-        <Contacts src={fbLogo} name="Kamalraj" status="Online" />
+        <Contacts src={fbLogo} name="Harry" status="Online" />
+        <Contacts src={fbLogo} name="Ron" status="Offline" />
+        <Contacts src={fbLogo} name="Adam" status="Online" />
     </div>
   )
 }
