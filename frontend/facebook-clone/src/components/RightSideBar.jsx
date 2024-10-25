@@ -3,7 +3,7 @@ import { BiSearch } from 'react-icons/bi'
 import { CgMoreAlt } from 'react-icons/cg'
 import { RiVideoAddFill } from 'react-icons/ri'
 import { Contacts } from './Contacts'
-import fbLogo from '../assets/Facebook_f_logo_(2021).svg';
+import fbLogo from '../assets/Socialize_app_logo.png';
 
 export const RightSideBar = () => {
   return (

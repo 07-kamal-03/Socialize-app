@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import fbLogo from '../assets/Facebook_f_logo_(2021).svg';
+import fbLogo from '../assets/Socialize_app_logo.png';
 import { HiOutlineVideoCamera } from 'react-icons/hi';
 import { IoMdPhotos } from 'react-icons/io';
 import { BsEmojiSmile } from 'react-icons/bs';

@@ -1,5 +1,5 @@
 import React from 'react';
-import fbLogo from '../assets/Facebook_f_logo_(2021).svg';
+import fbLogo from '../assets/Socialize_app_logo.jpg';
 import { HiOutlineSearch } from 'react-icons/hi';
 import { HiOutlineHome } from 'react-icons/hi';
 import { RiFlag2Line } from 'react-icons/ri';
@@ -16,7 +16,7 @@ export const Header = () => {
                 <img src={fbLogo} alt='Facebook Logo' width={40} height={40} />
                 <div className='flex items-center space-x-2 ml-2 px-2 rounded-full bg-gray-100 text-gray-500'>
                     <HiOutlineSearch size={20} />
-                    <input type='text' placeholder='Search Facebook' className='hidden lg:inline-flex bg-transparent focus:outline-none' />
+                    <input type='text' placeholder='Search People' className='hidden lg:inline-flex bg-transparent focus:outline-none' />
                 </div>
             </div>
             {/* Center */}
