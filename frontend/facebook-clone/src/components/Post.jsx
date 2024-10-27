@@ -15,7 +15,26 @@ export const Post = () => {
             <p className='text-xs text-gray-500'>{new Date().toLocaleString()}</p>
           </div>
         </div>
-        <p className='py-4'>llaal</p>
+        <p className='py-4'>Kamalraj<br></br>
+          Salem, Tamil Nadu - 636116, India<br></br>
+          +91 9344821633<br></br>
+          kamalprs50@gmail.com<br></br>
+          10/26/2024<br></br><br></br>
+
+          <b>Dear Hiring Team,</b><br></br><br></br>
+
+          I am writing to express my interest in the Software Engineer position. With a Bachelor’s degree in Electronics and Communication Engineering and a year of experience in software development, I am eager to contribute my skills and passion for technology to your team.<br></br><br></br>
+
+          Throughout my internship at Moonraft Innovation Labs, I successfully led the development of a CMS-based healthcare platform, resulting in a 25% increase in website traffic. This experience honed my proficiency in technologies such as Java, Spring Boot, and React.js, allowing me to build scalable, high-performance applications that meet user needs.<br></br><br></br>
+
+          I am particularly drawn to this opportunity because of the commitment to innovation and excellence in software solutions. I admire the values of the organization and am excited about the opportunity to contribute to such impactful work. My collaborative approach, combined with strong problem-solving skills, enables me to work effectively in cross-functional teams to achieve project goals.<br></br><br></br>
+
+          I am passionate about continuous learning and growth in the tech industry, and I am confident that my technical skills and dedication will allow me to make a positive impact. I look forward to the possibility of discussing how my background, skills, and enthusiasm align with the needs of your team.<br></br><br></br>
+
+          Thank you for considering my application. I have attached my resume for your review and would welcome the opportunity to discuss my candidacy further.<br></br><br></br>
+
+          Warm regards,<br></br>
+          Kamalraj</p>
       </div>
       <div className='relative bg-white'>
         <img src='https://images.pexels.com/photos/19989453/pexels-photo-19989453/free-photo-of-gardskagaviti-lighthouse-overlooking-the-ocean.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='w-full object-cover' />
