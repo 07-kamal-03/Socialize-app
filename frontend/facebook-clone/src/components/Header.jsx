@@ -1,5 +1,6 @@
 import React from 'react';
 import fbLogo from '../assets/Socialize_app_logo.jpg';
+import profileLogo from '../assets/featured-small-circular.webp';
 import { HiOutlineSearch } from 'react-icons/hi';
 import { HiOutlineHome } from 'react-icons/hi';
 import { RiFlag2Line } from 'react-icons/ri';
@@ -41,7 +42,7 @@ export const Header = () => {
             </div>
             {/* Right */}
             <div className='flex items-center space-x-2'>
-                <img src={fbLogo} alt='Facebook Logo' width={40} height={40} />
+                <img src={profileLogo} alt='Facebook Logo' width={40} height={40} />
                 <p className='hidden xl:inline-flex font-semibold whitespace-nowrap p-3 max-w-xs'>Kamalraj</p>
                 <CgMenuGridO size={20} className='hidden lg:inline-flex w-10 h-10 bg-gray-200 text-gray-600 p-2 rounded-full cursor-pointer hover:bg-gray-300' />
                 <AiFillMessage size={20} className='hidden lg:inline-flex w-10 h-10 bg-gray-200 text-gray-600 p-2 rounded-full cursor-pointer hover:bg-gray-300' />

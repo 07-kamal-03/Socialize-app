@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import fbLogo from '../assets/Socialize_app_logo.png';
+import fbLogo from '../assets/featured-small-circular.webp';
 import { HiOutlineVideoCamera } from 'react-icons/hi';
 import { IoMdPhotos } from 'react-icons/io';
 import { BsEmojiSmile } from 'react-icons/bs';
@@ -53,7 +53,7 @@ export const CreatePost = () => {
     return (
         <div className='bg-white rounded-md shadow-md text-gray-500 p-2'>
             <div className='flex p-4 items-center space-x-2'>
-                <img src={fbLogo} alt='Facebook Logo' width={40} height={40} />
+                <img src={fbLogo} alt='Facebook Logo' className='rounded-full' width={40} height={40} />
                 <form className='flex flex-1'>
                     <input type="text" ref={inputRef} placeholder="What's on your mind?" className='flex-grow focus:outline-none bg-gray-100 px-4 h-12 font-medium rounded-full border-none ' />
                     <button type="submit" onClick={handleSubmit} hidden className='w-24 h-12 text-white bg-blue-500 rounded-md'>Post</button>

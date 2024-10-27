@@ -1,5 +1,5 @@
 import React from 'react';
-import fbLogo from '../assets/Socialize_app_logo.png';
+import fbLogo from '../assets/featured-small-circular.webp';
 import { FiThumbsUp } from 'react-icons/fi';
 import { FaRegCommentAlt } from 'react-icons/fa';
 import { RiShareForwardLine } from 'react-icons/ri';
